@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos Técnicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="logo-container">
+            <svg class="logo-svg" viewBox="0 0 100 100">
+    <path d="M40,30 C50,20 60,30 50,40 C40,50 30,40 40,30 Z M30,50 C20,60 30,70 40,60 C50,50 40,40 30,50 Z M60,50 C70,60 60,70 50,60 C40,50 50,40 60,50 Z M70,22 L70,38 M62,30 L78,30" />
+    <circle cx="70" cy="30" r="8" />
+            </svg>
+            <h1>Termos Técnicos</h1>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#" class="active"><i class="fas fa-search"></i> Buscar</a></li>
+            <li><a href="#"><i class="fas fa-plus"></i> Cadastrar</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h2 class="page-title">Busca de Termos Técnicos</h2>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Digite o termo técnico que deseja buscar...">
+            <button class="search-button">
+                <i class="fas fa-search"></i> buscar
+            </button>
+        </div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Termo</th>
+                    <th>Siglas</th>
+                    <th>Definição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Exemplo de Termo</td>
+                    <td>ET</td>
+                    <td>Esta é a definição do termo exemplo.</td>
+                    <td>
+                        <div class="actions">
+                            <i class="fas fa-pen"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+</body>
+</html>
